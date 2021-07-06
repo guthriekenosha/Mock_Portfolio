@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    background:rgb(249, 249, 249);
+    width: 970px;
+}
+
+.header{
+    padding: 5px;
+}
+
+.header h1{
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0px 300px 0 30px;
+}
+
+.header h1, .header h2{
+    display: inline-block;
+}
+
+.maincontent{
+    background-image: radial-gradient(circle,#6f596f64 40%,black 100% );
+
+}
+
+.top-content{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Main-Photo{
+    width: 350px;
+    margin: 10px 30px;
+    border:4px solid gray;
+}
+
+.three-sections{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+.about{
+    display: inline-block;
+    width: 450px;
+    vertical-align:top;
+    margin-top: 15px;
+    background-color: white;
+    padding: 10px;
+}
+
+h3,h4{
+    background-image: linear-gradient(grey,#6f596f64, grey); 
+    color: white;
+    padding: 6px;
+}
+
+.about p, .about a{
+    padding: 6px;
+}
+
+.section{
+    width: 300px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
+.section p{
+    padding: 6px;
+
+}
+
+.section button{
+    background: green;
+    border-radius: 5px;
+    color: white;
+    margin: 0 auto;
+    display: block;
+    padding: 6px;
+}
+
+.section img{
+    width: 300px;
+}
+
+.tech img{
+    width: 40px;
+    padding: 3px;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.social img{
+    width: 15px;
+}
+
